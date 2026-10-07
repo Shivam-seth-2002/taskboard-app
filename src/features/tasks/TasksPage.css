@@ -1,0 +1,16 @@
+.tasks-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.tasks-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-page__subtitle {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}

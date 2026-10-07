@@ -1,0 +1,16 @@
+.task-list {
+  overflow-y: auto;
+  max-height: calc(100vh - 380px);
+  min-height: 300px;
+  border-radius: var(--radius-lg);
+}
+
+.task-list--grid {
+  /* Future: grid layout for task cards */
+}
+
+@media (max-width: 640px) {
+  .task-list {
+    max-height: calc(100vh - 320px);
+  }
+}
